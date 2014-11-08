@@ -1,0 +1,41 @@
+{
+  "name": "yargs-dashed",
+  "version": "0.0.0",
+  "description": "yargs + dashed arguments as in \"head -10\"",
+  "author": "Eugene Sharygin <eush77@gmail.com>",
+  "license": "MIT",
+  "main": "src",
+  "scripts": {
+    "test": "doctest --module commonjs src/*"
+  },
+  "homepage": "https://github.com/eush77/yargs-dashed",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eush77/yargs-dashed"
+  },
+  "bugs": {
+    "url": "https://github.com/eush77/yargs-dashed/issues"
+  },
+  "keywords": [
+    "yargs",
+    "dash",
+    "dashed",
+    "minus",
+    "unix",
+    "head",
+    "tail",
+    "argument",
+    "args",
+    "option",
+    "parser",
+    "parsing",
+    "cli",
+    "command"
+  ],
+  "dependencies": {
+    "yargs": "^1.3.2"
+  },
+  "devDependencies": {
+    "doctest": "^0.7.0"
+  }
+}
