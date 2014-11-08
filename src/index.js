@@ -2,12 +2,7 @@
 
 var yargsDashed = require('./yargs-dashed');
 
-
-var instance = yargsDashed(process.argv.slice(2));
-
-Object.keys(instance).forEach(function (key) {
-  yargsDashed[key] = instance[key];
-});
+var extend = require('extend');
 
 
-module.exports = yargsDashed;
+module.exports = extend(yargsDashed, yargsDashed(process.argv.slice(2)));
